@@ -1,0 +1,24 @@
+{
+  "name": "ramly",
+  "version": "1.0.0",
+  "description": "A small tool for rendering a set of raml definitions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts --lib ESNext --alwaysStrict --target ES2017"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliandavidmr/ramly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliandavidmr/ramly/issues"
+  },
+  "homepage": "https://github.com/juliandavidmr/ramly#readme",
+  "dependencies": {
+    "raml2html": "^7.0.0"
+  }
+}
